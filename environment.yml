@@ -1,0 +1,20 @@
+# You can use this file to create a conda environment for this transcriptome assembly practice:
+# conda env create -f environment.yml
+name: rna_assembly
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  ## bioconda packages
+  - samtools=1.17
+  - bowtie2=2.5.1
+  - cufflinks=2.2.1
+  - hisat2=2.2.1
+  - velvet=1.2.10
+  - oases=0.2.09
+
+  ## conda-forge packages
+  - conda-forge::ca-certificates=2023.5.7
+  - conda-forge::openssl=1.1.1u
+  - conda-forge::python=3.6
