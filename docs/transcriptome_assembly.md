@@ -90,10 +90,13 @@ Output of Cufflinks is given in BED or GTF format which contains the transcript 
 
 1. Interleave paired-end reads (forward + reverse)
 
+    ```python
+    python3 interleave_fastq.py -f "/path/to/sample_R1.fastq" -r "/path/to/sample_R2.fastq" -o "/path/to/outFile"
+    ```
+
+    OR
+
     ```bash
-    # perl script
-    ./shuffleSequences_fastq.pl "sample_R1.fastq" "sample_R2.fastq" "sample_interleaved.fastq"
-    # bash
     paste <(cat "/path/to/sample_R1.fastq") <(cat "/path/to/sample_R2.fastq") | paste - - - - | awk 'BEGIN{FS="\t"; OFS="\n"}; {print $1,$3,$5,$7,$2,$4,$6,$8}' > "sample_interleaved.fastq"
     ```
 
