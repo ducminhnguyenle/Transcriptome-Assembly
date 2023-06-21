@@ -3,6 +3,7 @@
 ---
 
 - [TRANSCRIPTOME ASSEMBLY PRACTICE](#transcriptome-assembly-practice)
+  - [Dataset](#dataset)
   - [Tools](#tools)
   - [Conda/Miniconda installation](#condaminiconda-installation)
   - [Mapping-based assembly method](#mapping-based-assembly-method)
@@ -12,6 +13,12 @@ This tutorial demonstrates how to perform a simple transcriptome assembly based 
 
 - Mapping-based assembly  
 - De-novo assembly
+
+## Dataset
+
+One can find paired-end fastq files artificially created in [here](../data/).
+Data was originated from human sample using hg19/GRCh37 reference genome.
+UCSC human genomes related to hg19 can be found [here](https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/).
 
 ## Tools
 
@@ -134,3 +141,5 @@ An example of a FASTA entry name is `Locus_10_Transcript_1/3_Confidence_0.571_Le
 
 - It indicates that there are three transcripts from locus 10, and this is the first of them.
 - The confidence value is a number between 0 and 1 (the higher the better), and length is the transcript length in base pairs.
+
+**NOTE**: Please remember to specify your own path to each of the data or tool that are mentioned in this practice.
