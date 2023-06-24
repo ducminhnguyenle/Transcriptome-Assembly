@@ -17,8 +17,11 @@ This tutorial demonstrates how to perform a simple transcriptome assembly based 
 ## Dataset
 
 One can find paired-end fastq files artificially created in [here](../data/).
+
 Data was originated from human sample using hg19/GRCh37 reference genome.
+
 UCSC human genomes related to hg19 can be found [here](https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/).
+
 Gene annotation file for GRCh37/hg19 can be found [here](https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_43/GRCh37_mapping/gencode.v43lift37.annotation.gtf.gz).
 
 ## Tools
