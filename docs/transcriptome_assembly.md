@@ -40,7 +40,7 @@ In this practical transcriptome assembly, these tools are utilized for simple an
 
 Every tools and their dependencies that are required in this tutorial will be installed through [Conda/Miniconda](https://docs.conda.io/en/latest/).
 
-Please use this [environment.yml](./environment.yml) file which includes all the tools needed for this practice.
+Please use this [environment.yml](../environment.yml) file which includes all the tools needed for this practice.
 
 Using this conda command line to generate necessary [Conda/Miniconda](https://docs.conda.io/en/latest/) evnvironment:
 
